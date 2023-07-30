@@ -22,6 +22,7 @@ const getMovieByName = async (date) => {
   return rows;
 };
 
+/* Exports */
 module.exports = {
   createMovie,
   getMovies,
